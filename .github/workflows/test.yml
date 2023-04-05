@@ -24,4 +24,4 @@ jobs:
           pip install -r ./web/requirements.txt
       - name: Run pytest
         run: |
-          pytest tesapp.py
+          pytest testapp.py
